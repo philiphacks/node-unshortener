@@ -18,7 +18,7 @@ The unshortener can be used on almost any link shortener service. 'goo.gl', 'dlv
 	var	u = require('../lib/unshortener'),
 		unshortener = new u(['youtu.be']);
 
-The above snippet creates a new unshortener object and specifies youtu.be as an extra shortener service. The (optional) parameter can be a list of arbitrary length containing shortener services.
+The above snippet creates a new unshortener object and specifies youtu.be as an extra shortener service (in addition to the others stated above). This (optional) parameter can be a list of arbitrary length containing shortener services.
 
 ### Unshorten URL
 
